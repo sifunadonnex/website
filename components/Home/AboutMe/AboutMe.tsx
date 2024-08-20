@@ -29,7 +29,7 @@ export default function AboutMe(props) {
           <div className="w-full md:w-7/12 space-y-4 sm:text-base text-sm ">
             <div className="font-Header ">
               <span className="text-gray-400 ">
-                Hello! My name is Sifuna, and I am a passionate software engineer and problem solver, dedicated to
+                Hello! My name is Sifuna Donnex, and I am a passionate software engineer and problem solver, dedicated to
                 creating impactful codes that thrive on the internet. My journey in computer science began in 2019 when
                 I delved into the world of Web Development as my passion. I also most of the time used to make designs for fun and enjoyed creating posters and amazing designs.
               </span>

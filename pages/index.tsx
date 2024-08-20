@@ -57,7 +57,7 @@ export default function Home() {
   console.log("Portfolio Rendered...");
   const meta = {
     title: "Sifuna Donnex - Software Engineer",
-    description: `I'm a Software engineer and Graphic DEsigner. Get in touch with me to know more.`,
+    description: `I'm a Software engineer and Graphic Designer. Get in touch with me to know more.`,
     image: "/titofCercle.png",
     type: "website",
   };
@@ -72,7 +72,7 @@ export default function Home() {
         <meta property="og:url" content={`https://sifunadonnex.vercel.app`} />
         <link rel="canonical" href={`https://sifunadonnex.vercel.app`} />
         <meta property="og:type" content={meta.type} />
-        <meta property="og:site_name" content="Sifuna Portfolio" />
+        <meta property="og:site_name" content="Sifuna Donnex Portfolio" />
         <meta property="og:description" content={meta.description} />
         <meta property="og:title" content={meta.title} />
         <meta property="og:image" content={meta.image} />
@@ -93,7 +93,7 @@ export default function Home() {
         {context.sharedState.finishedLoading ? <SomethingIveBuilt /> : <></>}
         {context.sharedState.finishedLoading ? <GetInTouch /> : <></>}
         {context.sharedState.finishedLoading ? (
-          <Footer githubUrl={"https://github.com/sifuna2002/my-website"} hideSocialsInDesktop={true} />
+          <Footer githubUrl={"https://github.com/sifunadonnex/website"} hideSocialsInDesktop={true} />
         ) : (
           <></>
         )}
